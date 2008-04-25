@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+ 
+<title>Maximo BackOffice</title>
+<LINK href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<script type="text/javascript" src="javascript/ajax.js"></script>
+   
+<form name="launchApp" >
+<table><tbody>
+<tr><td width="210" valign="top">
+  <table class="menu"><tbody class="menu">
+  <tr><th class="menuover"><center>Config DB</center></th></tr>
+  <tr><td class="menu" onmouseover="manageMouseOver(this);" onmouseout="manageMouseOut(this);" onclick="ajaxFunctionMenu('configdb');">Config DB </td></tr>
+  <tr><td class="menu" onmouseover="manageMouseOver(this);" onmouseout="manageMouseOut(this);" onclick="ajaxFunctionMenu('restorefrombackup');">Restore from Backup</td></tr>
+  <tr><td class="menu" onmouseover="manageMouseOver(this);" onmouseout="manageMouseOut(this);" onclick="ajaxFunctionMenu('dropbackup');">Drop Backup</td></tr>
+  <tr><th class="menuover"><center>Build EARs/WARs</center></th></tr>
+  <tr><td class="menu" onmouseover="manageMouseOver(this);" onmouseout="manageMouseOut(this);" onclick="ajaxFunctionMenu('buildmaximoear');">Maximo EAR</td></tr>
+  <tr><td class="menu" onmouseover="manageMouseOver(this);" onmouseout="manageMouseOut(this);" onclick="ajaxFunctionMenu('buildacwebear');">ACWeb EAR</td></tr>
+  <tr><td class="menu" onmouseover="manageMouseOver(this);" onmouseout="manageMouseOut(this);" onclick="ajaxFunctionMenu('buildhelpear');">Help EAR</td></tr>
+  <tr><td class="menu" onmouseover="manageMouseOver(this);" onmouseout="manageMouseOut(this);" onclick="ajaxFunctionMenu('buildrmiregwar');">RMI Registry WAR</td></tr>
+  <tr><td class="menu" onmouseover="manageMouseOver(this);" onmouseout="manageMouseOut(this);" onclick="ajaxFunctionMenu('buildbocrystalwar');">DBO Crystal WAR</td></tr>
+  <tr><th class="menuover"> <center>Deploy</center></th></tr>
+  <tr><td class="menu" >Redeploy Maximo</td></tr>
+  <tr><td class="menu" >Stop Maximo</td></tr>
+  <tr><td class="menu" >Start Maximo</td></tr>
+  <tr><th class="menuover"><center>Misc</center></th></tr>
+  <tr><td class="menu" >Refresh Maximo DD</td></tr>
+  <tr><th class="menuover"><center>About</center></th></tr>
+  <tr><td class="menu" onmouseover="manageMouseOver(this);" onmouseout="manageMouseOut(this);" onclick="ajaxFunctionMenu('showlicense');">License</td></tr>
+  </tbody></table>
+
+  </td><td width="610">
+    <table ><tbody><tr><td>
+      <h5>Estado</h5>
+      <div id="statusDiv" class="commands" ></div>
+    </td></tr><tr><td width="610">
+      <h5>Log</h5>
+      <div id="resDiv" class="results" ></div>
+    </td></tr>
+    </tbody></table>
+  </td></tr>
+  
+  <tr><td colspan="2" align="center"><p class="license">Developed by AJC</p></td></tr>
+</tbody></table>
+</form>
+</body>
+</html>

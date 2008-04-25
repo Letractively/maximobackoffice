@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+	<display-name>Maximo Back Office</display-name>
+	<servlet>
+		<servlet-name>ExecuteMaximo</servlet-name>
+		<display-name>ExecuteMaximo</display-name>
+		<description>Ejecuta scripts de Maximo</description>
+		<servlet-class>
+			org.ajc.maximo.app.backoffice.ExecuteMaximo
+		</servlet-class>
+		<init-param>
+			<param-name>MAXIMO_HOME</param-name>
+			<param-value>c:\maximo</param-value>
+			<description>Maximo home folder</description>
+		</init-param>
+
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExecuteMaximo</servlet-name>
+		<url-pattern>/ExecuteMaximo</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
