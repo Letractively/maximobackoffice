@@ -1,0 +1,5 @@
+#labels Featured
+Are you a Maximo or Maximo extensio developer and feel that are some task that could be automated? Leave you suggestion as an enhancement in the projects [http://code.google.com/p/maximoframework/issues/list Issues] and I'll check it out.
+
+Thanks in advance.
+

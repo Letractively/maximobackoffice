@@ -1,0 +1,7 @@
+#labels Featured
+The project News as they happen.
+
+===07/04/2008===
+
+Publication of version 0.1.
+
