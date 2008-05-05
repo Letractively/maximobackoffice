@@ -3,5 +3,6 @@ Screenshots
 
 =Main Screen=
 Back office's main screen
-http://code.google.com/p/maximobackoffice/source/browse/wiki/imgs/MainScreen.jpg
+
+http://jacob.costa.googlepages.com/MaximoBackOffice_MainScreen.jpg
 
