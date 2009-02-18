@@ -1,0 +1,7 @@
+#summary Table of Contents
+
+  * [DevelopersBackOffice Project information]
+  * [News News articles]
+  * [Install Installation guide]
+  * [Suggestions Suggestions page]
+  * [Screenshots Screenshots]
