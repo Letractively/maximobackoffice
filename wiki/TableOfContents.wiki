@@ -1,7 +1,16 @@
 #summary Table of Contents
+#labels toc
 
   * [DevelopersBackOffice Project information]
   * [News News articles]
   * [Install Installation guide]
   * [Suggestions Suggestions page]
   * [Screenshots Screenshots]
+
+=== openmaximo ===
+  * [http://www.openmaximo.net/ Homepage]
+
+----
+*3rd party adds*
+
+<wiki:gadget url="https://sites.google.com/a/openmaximo.net/openmaximo/site-files/adsense.left.gadget.xml?attredirects=0" height="605" width="125" border="0" />
