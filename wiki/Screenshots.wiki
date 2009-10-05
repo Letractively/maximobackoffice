@@ -4,7 +4,7 @@ Screenshots
 =Main Screen=
 Back office's main screen
 
-http://jacob.costa.googlepages.com/MaximoBackOffice_MainScreen.jpg
+https://sites.google.com/a/openmaximo.net/openmaximo/site-files/MaximoBackOffice_MainScreen.jpg?attredirects=0
 
 
 ----
