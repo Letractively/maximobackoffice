@@ -1,5 +1,4 @@
 #labels Featured
-
 =Introduction=
 Installation guide
 
@@ -37,3 +36,7 @@ dropbackup.bat script files.
 Deploy the WAR application in a BEA Weblogic or IBM WebSphere application server.
 
 
+----
+3rd party adds
+
+<wiki:gadget url="https://sites.google.com/a/openmaximo.net/openmaximo/site-files/adsense.gadget.xml?attredirects=0" height="95" width="735" border="0" /> 
