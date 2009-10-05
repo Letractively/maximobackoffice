@@ -3,3 +3,7 @@ Are you a Maximo or Maximo extensio developer and feel that are some task that c
 
 Thanks in advance.
 
+----
+3rd party adds
+
+<wiki:gadget url="https://sites.google.com/a/openmaximo.net/openmaximo/site-files/adsense.gadget.xml?attredirects=0" height="95" width="735" border="0" /> 
